@@ -5,38 +5,97 @@
     --white: #fff;
     --light-purple: #fbf6ff;
     --green: #4fff4b;
-  }
-
-body{
-    background-color: white;
 }
 
-.nav{
-    background-color: orange;
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/** Navbar*/
+nav {
+    background-color: transparent;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+
 }
+
+nav a {
+    color: #fff;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 36px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav li {
+
+    float: left;
+    list-style: none;
+    margin: 20px;
+    padding-left: 80px;
+    color: #f2f2f2;
+}
+
+
+
+
+#DivBusca {
+    display: flex;
+    padding-left: 150px;
+}
+
+
+#txtBusca {
+    float: left;
+    background-color: var(--dark-bg);
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    height: 42px;
+    width: 260px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+#btnBusca {
+    background: var(--button-bg);
+    height: 44px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/** Fim do Navbar*/
+
+
+
 
 div.op1 {
     height: 311px;
     width: 50%;
     display: inline-block;
-    background-color: red;
+    background-color: ;
     text-align: center;
     padding: 5vw 0vw 5vw 0vw;
-    min-width:40vw;
+    min-width: 40vw;
 }
 
 div.op2 {
     height: 311px;
     width: 50%;
-    background-color: green;
+    background-color: ;
     display: inline-block;
     text-align: center;
     padding: 5vw 0vw 5vw 0vw;
-    min-width:40vw;
-    float:right;
+    min-width: 40vw;
+    float: right;
 }
+
 div.op3 {
     height: 311px;
     width: 50%;
@@ -44,8 +103,9 @@ div.op3 {
     background-color: yellow;
     text-align: center;
     padding: 5vw 0vw 5vw 0vw;
-    min-width:40vw;
+    min-width: 40vw;
 }
+
 div.op4 {
     height: 311px;
     width: 50%;
@@ -53,10 +113,60 @@ div.op4 {
     display: inline-block;
     text-align: center;
     padding: 5vw 0vw 5vw 0vw;
-    min-width:40vw;
-    float:right;
+    min-width: 40vw;
+    float: right;
 }
 
-.cards{
+.cards {
     display: flex;
+    padding-top: 30px;
 }
+
+.sct {
+    width: 570px;
+    height: 311px;
+    background: ;
+    margin-left: 80px;
+}
+
+.sct h2 {
+    color: #9e6dc2;
+}
+
+.sct p {
+    padding-top: 30px;
+    align-items: left;
+    color: var(--white);
+}
+
+.home {
+    background: var(--purple-bg)
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 571px;
+    height: 546.09px;
+    padding-top: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    /* 5px rounded corners */
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
