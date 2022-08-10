@@ -1,0 +1,62 @@
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+  }
+
+body{
+    background-color: white;
+}
+
+.nav{
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+}
+
+div.op1 {
+    height: 311px;
+    width: 50%;
+    display: inline-block;
+    background-color: red;
+    text-align: center;
+    padding: 5vw 0vw 5vw 0vw;
+    min-width:40vw;
+}
+
+div.op2 {
+    height: 311px;
+    width: 50%;
+    background-color: green;
+    display: inline-block;
+    text-align: center;
+    padding: 5vw 0vw 5vw 0vw;
+    min-width:40vw;
+    float:right;
+}
+div.op3 {
+    height: 311px;
+    width: 50%;
+    display: inline-block;
+    background-color: yellow;
+    text-align: center;
+    padding: 5vw 0vw 5vw 0vw;
+    min-width:40vw;
+}
+div.op4 {
+    height: 311px;
+    width: 50%;
+    background-color: purple;
+    display: inline-block;
+    text-align: center;
+    padding: 5vw 0vw 5vw 0vw;
+    min-width:40vw;
+    float:right;
+}
+
+.cards{
+    display: flex;
+}
