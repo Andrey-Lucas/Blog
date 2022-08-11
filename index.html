@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -8,100 +8,45 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&family=Poppins:wght@400;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&family=Poppins:wght@700&family=Roboto:ital,wght@0,400;0,700;1,700&display=swap"
         rel="stylesheet">
-    <title>Blog.</title>
+    <link rel="icon" type="image/ico" href="./assets/img/blog_seo_optimization_search_icon_192465.ico" />
+    <title> -Blog.-</title>
 </head>
 
 <body>
     <section class="home">
-        <section class="nav">
-            <nav>
-                <a href="#">
-                    <h2>The Blog.</h2>
-                </a>
-                <ul>
-                    <li>Home</li>
-                    <li>Sobre</li>
-                    <li>Categorias</li>
-                    <li>Contato</li>
-                    <li>
-                        <div id="divBusca">
-                            <input type="text" id="txtBusca" placeholder="Buscar..." />
-                            <img src="./assets/img/search.svg" id="btnBusca" alt="Buscar" />
-                        </div>
-                    </li>
-                </ul>
-            </nav>
+        <nav>
+            <a id="logo"><img src="./assets/img/logo.svg"></a>
+            <ul>
+                <li>Home</li>
+                <li>Sobre</li>
+                <li>Categorias</li>
+                <li>Contatos</li>
+                <li>
+                    <div id='search-box'>
+                        <form action='/search' id='search-form' method='get' target='_top'>
+                            <input id='search-text' name='q' placeholder='Digite sua pesquisa' type='text' />
+
+                            <button id='search-button' type='submit'><span><img class="img-btn"
+                                        src="./assets/img/search.svg" alt=""></span></button>
+                        </form>
+                    </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <section class="posts1">
+            <section class="post1">
+
+            </section>
+            <section class="post2">
+
+            </section>
         </section>
-        <div class="op1">
-            <section class="sct">
-                <h2>Veja o guia definitivo para conquistar seus objetivos como DEV em 2022</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt modi nobis in. Velit dolore fugit
-                    provident sed porro incidunt laborum iure. Distinctio voluptas ipsam laudantium assumenda optio
-                    dolorem
-                    blanditiis doloremque.</p>
-                <a><strong>Ver mais</strong><img src="./assets/img/arrow-right.svg" </a> </section> </div> <div
-                        class="op2">
-                    <img src="./assets/img/featured-image.png" alt="images">
-        </div>
-    </section>
-    <section class="inf">
-        <div class="op3">
-            <div class="card">
-                <img src="./assets/img/post-1.png" alt="image" style="width:569px">
-                <div class="container">
-                    <h3>Começando no ReactJS em 2022</h3>
-                    <h4><b>Janeiro 04, 2022</b></h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing
-                        neque. Sed
-                        volutpat aenean sit vitae, sed tristique nibh nibh eu in aliquet ut adipiscing neque.</p>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="op4">
-            <h3>Conheça as principais técnicas para conseguir uma vaga internacional em programação</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ea aspernatur facilis temporibus nisi
-                ratione expedita sint voluptas obcaecati numquam, officia provident nemo, quisquam delectus vitae
-                officiis placeat eos. Reprehenderit.</p>
-            <hr>
-            <h3>Conheça as principais técnicas para conseguir uma vaga internacional em programação</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ea aspernatur facilis temporibus nisi
-                ratione expedita sint voluptas obcaecati numquam, officia provident nemo, quisquam delectus vitae
-                officiis placeat eos. Reprehenderit.</p>
-        </div>
-    </section>
-
-    <section class="cards">
-        <div card1>
-            <img src="./assets/img/post-2.png" alt="">
-            <a>Janeiro 04, 2022</a>
-            <h3>10 dicas para conseguir a vaga desejada</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore sint consectetur iste, modi similique
-                quo ullam soluta. Ex ducimus in molestias accusamus est sint asperiores corrupti nulla. Sunt, facilis
-                minus.</p>
-        </div>
-
-        <div card2>
-            <img src="./assets/img/post-3.png" alt="">
-            <a>Janeiro 04, 2022</a>
-            <h3>Deixe seu código mais semântico com essas dicas</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quidem, expedita quos repudiandae quasi
-                consequuntur deleniti hic doloremque maxime totam quas voluptatem dignissimos repellat obcaecati vel
-                quisquam! Mollitia, sed eveniet!</p>
-        </div>
-
-        <div card3>
-            <img src="./assets/img/post-4.png" alt="">
-            <a>Janeiro 04, 2022</a>
-            <h3>Use essas dicas nas suas aplicações mobile</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id perferendis iure vel atque inventore
-                sapiente. At dignissimos optio placeat dolor laudantium accusantium, libero ullam, quam doloremque
-                labore nam eveniet voluptate!</p>
-        </div>
     </section>
 </body>
 
